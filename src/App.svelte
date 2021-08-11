@@ -1,12 +1,16 @@
 <script type="ts">
   import banner from './assets/banner.png';
   import Search from './Search.svelte';
+  import ac from './assets/ac.webp';
+  import mc from './assets/mc.jpeg';
+  import ff from './assets/ff.jpg';
+  import se4 from './assets/se4.webp';
 
   let cards = [
-    { name: "Assassin Creed", img: "src/assets/ac.webp", },
-    { name: "Mortal Kombat",  img: "src/assets/mc.jpeg", },
-    { name: "Forged Fantasy", img: "src/assets/ff.jpg", },
-    { name: "Sniper Elite 4", img: "src/assets/se4.webp", },
+    { name: "Assassin Creed", img: ac },
+    { name: "Mortal Kombat",  img: mc },
+    { name: "Forged Fantasy", img: ff },
+    { name: "Sniper Elite 4", img: se4 },
   ];
 </script>
 
@@ -90,7 +94,7 @@
 
   .banner .cell button {
     border: none;
-    padding: 1.43rem 1rem;
+    padding: 1.3rem 1rem;
     color: white;
     font-size: 1.3rem;
     border-radius: 1rem;
